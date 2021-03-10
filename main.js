@@ -65,6 +65,7 @@ function firstPunctuationIndex(str){
 }
 // ==============================
 function getPlace(highScores,newScore){
+    // loop through highscores
     for(score of highScores){
         rank = (highScores.indexOf(score)+1).toString();
         lastPlace = highScores.length;
